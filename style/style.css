@@ -19,6 +19,13 @@ p {
   margin: 0 0 0 6px;
 }
 
+/* ACTIVE STATE */
+.card-title:hover,
+.name:hover {
+  cursor: pointer;
+  color: hsl(178, 100%, 50%);
+}
+
 /* CONTAINER */
 .container {
   display: flex;
@@ -44,7 +51,7 @@ p {
 }
 
 .card-text,
-span {
+.create {
   margin: 0;
   color: hsl(215, 51%, 70%);
 }
