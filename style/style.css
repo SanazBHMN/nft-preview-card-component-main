@@ -4,6 +4,9 @@ body {
   font-family: "Outfit", sans-serif;
   font-size: 18px;
   background: hsl(217, 54%, 11%);
+  height: 100vh;
+  display: grid;
+  place-items: center;
 }
 
 /* GLOBAL */
@@ -20,7 +23,6 @@ p {
 .container {
   display: flex;
   justify-content: center;
-  margin: 1rem auto;
 }
 
 /* CARD */
