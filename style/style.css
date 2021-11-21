@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;600&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap");
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  background: hsl(217, 54%, 11%);
+}
+
+/* GLOBAL */
+h5 {
+  font-weight: bold;
+}
+
+p {
+  font-size: 15px;
+  margin: 0 0 0 6px;
+}
+
+/* CONTAINER */
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 1rem auto;
+}
+
+/* CARD */
+.card {
+  background: hsl(216, 50%, 16%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  max-width: 300px;
+  padding: 1rem;
+}
+
+.card img {
+  border-radius: 8px;
+}
+
+.card-body {
+  padding: 0;
+  margin-top: 20px;
+}
+
+.card-text,
+span {
+  margin: 0;
+  color: hsl(215, 51%, 70%);
+}
+
+.eth-info,
+.eth-info > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.eth-info {
+  padding-bottom: 10px;
+  border-bottom: 2px solid hsl(215, 32%, 27%);
+  margin-top: 1rem;
+}
+
+.ethereum {
+  color: hsl(178, 100%, 50%);
+}
+
+.clock {
+  color: hsl(215, 51%, 70%);
+}
+
+.avatar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.avatar img {
+  width: 30px;
+  height: 30px;
+  border: 1px solid hsl(0, 0%, 100%);
+}
